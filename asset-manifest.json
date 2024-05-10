@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Portfolio.React/static/css/main.731ae9e4.css",
-    "main.js": "/Portfolio.React/static/js/main.4a550b0b.js",
-    "static/media/character.jpg": "/Portfolio.React/static/media/character.dbded75e6a8bab65ed63.jpg",
-    "static/media/1993burgers.jpg": "/Portfolio.React/static/media/1993burgers.4af0c58465a27f27a092.jpg",
-    "static/media/iamfoodie.jpg": "/Portfolio.React/static/media/iamfoodie.c72a6007cce835fab6ed.jpg",
-    "static/media/newpaper.jpg": "/Portfolio.React/static/media/newpaper.da1e5c7e2d21d17f1079.jpg",
-    "static/media/myadventure.jpg": "/Portfolio.React/static/media/myadventure.556637fe9baa11f4ec9b.jpg",
-    "static/media/Getaquote.jpg": "/Portfolio.React/static/media/Getaquote.e288f7b23436201878a1.jpg",
-    "static/media/profile.jpg": "/Portfolio.React/static/media/profile.eb668165515192de35c0.jpg",
-    "static/media/logo314.png": "/Portfolio.React/static/media/logo314.2709165dd5761912de6b.png",
-    "index.html": "/Portfolio.React/index.html",
-    "main.731ae9e4.css.map": "/Portfolio.React/static/css/main.731ae9e4.css.map",
-    "main.4a550b0b.js.map": "/Portfolio.React/static/js/main.4a550b0b.js.map"
+    "main.css": "/Portfolio_React/static/css/main.731ae9e4.css",
+    "main.js": "/Portfolio_React/static/js/main.11c1029d.js",
+    "static/media/character.jpg": "/Portfolio_React/static/media/character.dbded75e6a8bab65ed63.jpg",
+    "static/media/1993burgers.jpg": "/Portfolio_React/static/media/1993burgers.4af0c58465a27f27a092.jpg",
+    "static/media/iamfoodie.jpg": "/Portfolio_React/static/media/iamfoodie.c72a6007cce835fab6ed.jpg",
+    "static/media/newpaper.jpg": "/Portfolio_React/static/media/newpaper.da1e5c7e2d21d17f1079.jpg",
+    "static/media/myadventure.jpg": "/Portfolio_React/static/media/myadventure.556637fe9baa11f4ec9b.jpg",
+    "static/media/Getaquote.jpg": "/Portfolio_React/static/media/Getaquote.e288f7b23436201878a1.jpg",
+    "static/media/profile.jpg": "/Portfolio_React/static/media/profile.eb668165515192de35c0.jpg",
+    "static/media/logo314.png": "/Portfolio_React/static/media/logo314.2709165dd5761912de6b.png",
+    "index.html": "/Portfolio_React/index.html",
+    "main.731ae9e4.css.map": "/Portfolio_React/static/css/main.731ae9e4.css.map",
+    "main.11c1029d.js.map": "/Portfolio_React/static/js/main.11c1029d.js.map"
   },
   "entrypoints": [
     "static/css/main.731ae9e4.css",
-    "static/js/main.4a550b0b.js"
+    "static/js/main.11c1029d.js"
   ]
 }
