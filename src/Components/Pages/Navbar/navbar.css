@@ -1,0 +1,29 @@
+
+.navbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+.logo {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 200px;
+    padding: 1rem 2rem;
+}
+
+.link-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.link-li{
+    padding: 1rem 1.5rem;
+    color: #000;
+    font-weight: 800;
+}
