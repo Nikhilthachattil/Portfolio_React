@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Portfolio_React/static/css/main.731ae9e4.css",
-    "main.js": "/Portfolio_React/static/js/main.ce3ed920.js",
-    "static/media/character.jpg": "/Portfolio_React/static/media/character.dbded75e6a8bab65ed63.jpg",
+    "main.css": "/Portfolio_React/static/css/main.d1013304.css",
+    "main.js": "/Portfolio_React/static/js/main.07c8a9ff.js",
     "static/media/1993burgers.jpg": "/Portfolio_React/static/media/1993burgers.4af0c58465a27f27a092.jpg",
     "static/media/iamfoodie.jpg": "/Portfolio_React/static/media/iamfoodie.c72a6007cce835fab6ed.jpg",
     "static/media/newpaper.jpg": "/Portfolio_React/static/media/newpaper.da1e5c7e2d21d17f1079.jpg",
     "static/media/myadventure.jpg": "/Portfolio_React/static/media/myadventure.556637fe9baa11f4ec9b.jpg",
     "static/media/Getaquote.jpg": "/Portfolio_React/static/media/Getaquote.e288f7b23436201878a1.jpg",
+    "static/media/tickershadow.png": "/Portfolio_React/static/media/tickershadow.d4c78366ace9f23b3623.png",
     "static/media/profile.jpg": "/Portfolio_React/static/media/profile.eb668165515192de35c0.jpg",
     "static/media/logo314.png": "/Portfolio_React/static/media/logo314.2709165dd5761912de6b.png",
     "index.html": "/Portfolio_React/index.html",
-    "main.731ae9e4.css.map": "/Portfolio_React/static/css/main.731ae9e4.css.map",
-    "main.ce3ed920.js.map": "/Portfolio_React/static/js/main.ce3ed920.js.map"
+    "main.d1013304.css.map": "/Portfolio_React/static/css/main.d1013304.css.map",
+    "main.07c8a9ff.js.map": "/Portfolio_React/static/js/main.07c8a9ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.731ae9e4.css",
-    "static/js/main.ce3ed920.js"
+    "static/css/main.d1013304.css",
+    "static/js/main.07c8a9ff.js"
   ]
 }
