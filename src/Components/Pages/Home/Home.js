@@ -3,16 +3,20 @@ import { motion, AnimatePresence } from 'framer-motion';
 import './Home.css';
 import Skills from '../../Skills/Skills';
 import Projects from '../../Projects/Projects'
-import character from '../../Images/character.jpg'
 import { Link } from 'react-router-dom';
 import About from '../About/About';
 import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
-
+import ticker from '../../Images/tickershadow.png'
+// import GraphicDesign from '../../Graphic Design/GraphicDesign';
+import './Ticker.scss'
 const Home = () => {
   const [modalOpen, setModalOpen] = useState(false);
+  // const [modalOpenTwo, setModalOpenTwo] = useState(false);
   const close = () => setModalOpen(false);
   const open = () => setModalOpen(true);
+  // const closeTwo = () => setModalOpenTwo(false);
+  // const openTwo = () => setModalOpenTwo(true);
 
 
   const icon = {
@@ -53,7 +57,7 @@ const Home = () => {
               fill: { duration: 6, ease: [1, 0, 0.8, 1] }
             }}
           >
-            Front-End Developer
+            UI Developer
           </motion.h1>
           <div className='home-container3'>
             <div className='home-section'>
@@ -76,12 +80,26 @@ const Home = () => {
               >
                 <Link > Projects</Link>
               </motion.div>
+              {/* <motion.div
+                className='parent3'
+                whileHover={{
+                  scale: 1.1,
+                }}
+                onClick={() => (modalOpenTwo ? closeTwo() : openTwo())}
+              >
+                Graphic Designs
+              </motion.div> */}
             </div>
           </div>
           <div className='flex justify-center mt-5' >
-            <motion.div whileHover={{scale: 1.1}}><img src={character} className='w-[20rem] flex justify-center rounded-full' alt='character' whileHover={{
-                  scale: 1.1,
-                }} /></motion.div>
+            <motion.div whileHover={{ scale: 1.1 }}><img src="https://i.ibb.co/7kdPJN8/character.jpg" className='w-[20rem] flex justify-center rounded-full' alt='character' whileHover={{
+              scale: 1.1,
+            }} /></motion.div>
+          </div>
+          <div className='ticker-wrap'>
+            <div className='ticker'>
+              <img src={ticker} className='item' alt='ticker' />
+            </div>
           </div>
         </div>
         {/* Projects */}
@@ -104,6 +122,9 @@ const Home = () => {
       <AnimatePresence initial={false} onExitComplete={() => null}>
         {modalOpen && <Skills modalOpen={modalOpen} handleClose={close} />}
       </AnimatePresence>
+      {/* <AnimatePresence initial={false} onExitComplete={() => null}>
+        {modalOpenTwo && <GraphicDesign modalOpenTwo={modalOpenTwo} handleCloseTwo={closeTwo} />}
+      </AnimatePresence> */}
     </div>
   );
 };

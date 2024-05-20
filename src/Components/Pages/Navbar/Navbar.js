@@ -62,7 +62,7 @@ const Navbar = () => {
        <img src={logo} className="w-[20rem] px-2" alt="logo"/>
         </div>
         <div
-          className="cursor-pointer text-[2rem] px-2  text-black"
+          className="cursor-pointer text-[2rem] px-2 pt-3 text-black"
           onClick={toggleMenu}
         >
           <FontAwesomeIcon icon={faBars}/>
@@ -75,13 +75,13 @@ const Navbar = () => {
             initial="initial"
             animate="animate"
             exit="exit"
-            className="fixed z-10 left-0 top-0 w-full h-screen origin-top bg-yellow-400 text-black p-3"
+            className="fixed z-10 left-0 top-0 w-full h-screen origin-top bg-yellow-400 text-black px-2 py-1"
           >
             <div className="flex h-full flex-col">
               <div className="flex justify-between">
-              <img src={logo} className="w-[20rem] " alt="logo2"/>
+              <img src={logo} className="w-[20rem] px-2 py-1" alt="logo2"/>
                 <p
-                  className="cursor-pointer text-[2rem] px-2  text-black"
+                  className="cursor-pointer text-[2rem] px-2 pt-3 text-black"
                   onClick={toggleMenu}
                 >
                   <FontAwesomeIcon icon={faXmark}/>
